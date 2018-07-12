@@ -1,17 +1,18 @@
-###Building modern web applications with React - Luminis
+### Building modern web applications with React - Luminis
 
-#####Goals
+##### Goals
 In this workshop we want you to get familiar with React. We try to incorporate things like using props, state and creating a component to show how React works. 
 This is the beginning of React, feel free to try more than what we have prepared!
 
-#####Getting started
+##### Getting started
 - Run `npm install` from the root of this project
 - Run `npm start` to start the application
 - Navigate to `localhost:3000` to see the App
 - Run `npm test` to start Jest. The first assignments are done when all tests succeed
 
-#####Assignments
-######Speaker
+##### Assignments
+
+###### Speaker
 In the first 6 assignments we are going to fill the speakers page. 
 We need to use `ListHeaders`, similar as in the schedule page. We need to use and modify the `Speaker` component too. 
 After these assignments the `/speakers` page should show speakers grouped by the first letter of their name. When you click on the speaker you should be able to see the details 
@@ -29,7 +30,7 @@ After these assignments the `/speakers` page should show speakers grouped by the
 6. In `speaker.test.js`, try to test the `Speaker` component
     - The `speakers.test.js` already contains some tests, you can take this as a starting point. Otherwise see `https://jestjs.io/` and `http://airbnb.io/enzyme/`
 
-######About
+###### About
 In the last 4 assignments we are going to make a new page with a route.
 We need to create a component, update the routes in `app.js` and do anything you like for the about page
 
@@ -41,7 +42,7 @@ We need to create a component, update the routes in `app.js` and do anything you
     - Each route needs a component to render. Use `About` in the same way as we did in the other routes
 4. In `about.js`, use the data from `data/conference-data.js` to create something you like
 
-#####Links
+##### Links
 - React: `https://reactjs.org/`
 - Create React App - Quickly setup a project: `https://github.com/facebook/create-react-app`
 - React router: `https://reacttraining.com/react-router/`
